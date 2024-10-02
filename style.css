@@ -1,426 +1,441 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
+/* Utility classes start here */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Utility classes end here */
+
 .container {
-    width: 100%;
-    height: 100vh;
-    display: flex;
+  width: 100%;
+  height: 100vh;
+  display: flex;
 }
 
 .form {
-    width: 50%;
-    height: 100%;
-    /*background-color: red;*/
+  width: 50%;
+  height: 100%;
+  /*background-color: red;*/
 }
 
 .Image {
-    width: 50%;
-    height: 100%;
-    overflow: hidden;
-    /*         background-color: green;*/
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  /*         background-color: green;*/
 }
 
 .Image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.header {}
+/* .header {} */
 
 .header h2 {
-    text-align: right;
-    padding-top: 33px;
-    padding-bottom: 70px;
-    padding-right: 93px;
-    color: #339999;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: right;
+  padding-top: 33px;
+  padding-bottom: 70px;
+  padding-right: 93px;
+  color: #339999;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .header2 h2 {
-    text-decoration: none;
-    text-align: right;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    padding-right: 93px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #339999;
+  text-decoration: none;
+  text-align: right;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-right: 93px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #339999;
 }
 
 a {
-    text-decoration: none;
-    color: #339999;
+  text-decoration: none;
+  color: #339999;
 }
 
 .form2 {
-    width: 80%;
-    align-items: center;
-    margin: auto;
+  width: 80%;
+  align-items: center;
+  margin: auto;
 }
 
 .form2 p {
-    padding-top: 10px;
-    font-size: 17.1px;
-    padding-bottom: 2px;
+  padding-top: 10px;
+  font-size: 17.1px;
+  padding-bottom: 2px;
 }
 
 h1 {
-    padding-bottom: 15px;
-    font-family: tahoma;
-    font-weight: bold;
-    font-size: 50px;
-    color: #003333;
-    text-shadow: 0 0 1px #336666;
+  padding-bottom: 15px;
+  font-family: tahoma;
+  font-weight: bold;
+  font-size: 50px;
+  color: #003333;
+  text-shadow: 0 0 1px #336666;
 }
 
 .user-name {
-    width: 100%;
-    height: 40px;
-    background: #fff;
-    /* border: 1px solid #e4e4e4; */
-    border: 1px solid silver;
-    border-radius: 4px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-top: 20px;
-    /* box-shadow: 3px 0 4px silver; */
+  width: 100%;
+  height: 40px;
+  background: #fff;
+  /* border: 1px solid #e4e4e4; */
+  border: 1px solid silver;
+  border-radius: 4px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+  /* box-shadow: 3px 0 4px silver; */
 }
 
 .user-name input {
-    width: 100%;
-    height: 70%;
-    outline: none;
-    border: none;
-    padding-left: 15px;
-    font-size: 16px;
+  width: 100%;
+  height: 70%;
+  outline: none;
+  border: none;
+  padding-left: 15px;
+  font-size: 16px;
 }
 
-
 .option {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 0;
-    margin-top: 20px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  margin-top: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .option2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 0;
-    margin-top: 10px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  margin-top: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .remember span {
-    padding-left: 10px;
-    color: #3399CC;
-    font-weight: 500;
-    cursor: pointer;
-    transition: 0.5s;
-
+  padding-left: 10px;
+  color: #3399cc;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.5s;
 }
 
 .remember p {
-    text-align: center;
-    font-size: 15px;
+  text-align: center;
+  font-size: 15px;
 }
 
-
-
 .flex {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .flex-only {
-    display: flex;
+  display: flex;
 }
 
 .remember span:hover {
-    text-decoration: underline;
-    transition: 0.5s;
+  text-decoration: underline;
+  transition: 0.5s;
 }
 
 #login-btn {
-    width: 100%;
-    height: 40px;
-    font-size: 19px;
-    font-weight: 600;
-    border-radius: 3px;
-    color: #fff;
-    background: #003333;
-    cursor: pointer;
-    box-shadow: 3px 0 5px #035050;
+  width: 100%;
+  height: 40px;
+  font-size: 19px;
+  font-weight: 600;
+  border-radius: 3px;
+  color: #fff;
+  background: #003333;
+  cursor: pointer;
+  box-shadow: 3px 0 5px #035050;
 }
 
 #login-btn:hover {
-    background: #014141;
-
-
+  background: #014141;
 }
 
 .login {
-    padding-top: 50px;
+  padding-top: 50px;
 }
 
 #sm {
-    padding: 10px 60px;
-    border-radius: 3px;
-    font-size: 18px;
-    border: 2px solid #003333;
-    font-weight: bold;
-    cursor: pointer;
-    transition: 0.5s;
-    color: #339999;
-    background: #fff;
+  padding: 10px 60px;
+  border-radius: 3px;
+  font-size: 18px;
+  border: 2px solid #003333;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+  color: #339999;
+  background: #fff;
 }
 
 #sm:hover {
-    background: #000;
-    color: #fff;
-    transition: 0.5s;
+  background: #000;
+  color: #fff;
+  transition: 0.5s;
 }
 
 .active-user {
-    border: 3px solid #3399CC;
-}
-
-.active-input {
-    /* background-color: #000; */
+  border: 3px solid #3399cc;
 }
 
 .user-flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin-top: 25px;
 }
 
 .user-input {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 47.5%;
-    height: 37px;
-    /* background: red; */
-    border-radius: 3px;
-    /* border: 1px solid #e4e4e4; */
-    border: 1px solid silver;
-    /* box-shadow: 3px 0 5px silver; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 47.5%;
+  height: 37px;
+  /* background: red; */
+  border-radius: 3px;
+  /* border: 1px solid #e4e4e4; */
+  border: 1px solid silver;
+  /* box-shadow: 3px 0 5px silver; */
 }
 
 .user-input input {
-    /* color: #e4e4e4; */
-    width: 90%;
-    height: 75%;
-    outline: none;
-    border: 0;
-    padding-left: 15px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+  /* color: #e4e4e4; */
+  width: 90%;
+  height: 75%;
+  outline: none;
+  border: 0;
+  padding-left: 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .user-input img {
-    width: 11px;
-    height: 11px;
-    padding-left: 15px;
-
+  width: 11px;
+  height: 11px;
+  padding-left: 15px;
 }
 
 .user-name img {
-    width: 11px;
-    height: 11px;
-    padding-left: 15px;
+  width: 11px;
+  height: 11px;
+  padding-left: 15px;
 }
 
 .top {
-    position: relative;
-    bottom: 10px;
+  position: relative;
+  bottom: 10px;
 }
 
 select {
-    width: 96%;
-    height: 90%;
-    border: 0;
-    outline: none;
-    margin: auto;
+  width: 96%;
+  height: 90%;
+  border: 0;
+  outline: none;
+  margin: auto;
 }
 
 .remember a {
-    text-decoration: none;
-    color: #000;
+  text-decoration: none;
+  color: #000;
 }
 
 .remember a:hover {
-    color: blue;
-    text-decoration: underline;
+  color: blue;
+  text-decoration: underline;
+}
+
+/*Media Query */
+
+@media (min-width: 1400px) {
+  .mainContainer {
+    width: 1400px;
+    margin:auto;
+  }
 }
 
 @media (max-width: 999px) {
-    .container {
-        flex-direction: column-reverse;
-        height: auto;
-        width: 100%;
-    }
+  .container {
+    flex-direction: column-reverse;
+    height: auto;
+    width: 100%;
+  }
 
-    .Image {
-        width: 100%;
-        height: 500px;
-    }
+  .Image {
+    width: 100%;
+    height: 500px;
+  }
 
-    .form {
-        width: 100%;
-    }
+  .form {
+    width: 100%;
+  }
 
-    .user-flex {
-        flex-direction: column;
-        margin-top: 0;
-    }
+  .user-flex {
+    flex-direction: column;
+    margin-top: 0;
+  }
 
-    .user-input {
-        width: 100%;
-        margin-top: 25px;
-    }
+  .user-input {
+    width: 100%;
+    margin-top: 25px;
+  }
 
-    .top {
-        bottom: 0;
-    }
+  .top {
+    bottom: 0;
+  }
 
-    .bottom {
-        position: relative;
-        bottom: 10px;
-    }
+  .bottom {
+    position: relative;
+    bottom: 10px;
+  }
+
+  .menu{
+    display: block;
+  }
+  .navbar2{
+    display: block;
+  }
 }
 
 @media (max-width: 600px) {
-    #sm {
-        padding: 10px 40px;
-    }
+  #sm {
+    padding: 10px 40px;
+  }
 }
 
 @media (max-width: 550px) {
-    .Image {
-        width: 100%;
-        height: 450px;
-    }
+  .Image {
+    width: 100%;
+    height: 450px;
+  }
 
-    #sm {
-        padding: 5px 21px;
-        font-size: 15px;
-    }
+  #sm {
+    padding: 5px 21px;
+    font-size: 15px;
+  }
 
-    .remember p {
-        text-align: center;
-        font-size: 14px;
-    }
+  .remember p {
+    text-align: center;
+    font-size: 14px;
+  }
 }
 
-@media(max-width: 500px) {
-    .Image {
-        width: 100%;
-        height: 420px;
-    }
+@media (max-width: 500px) {
+  .Image {
+    width: 100%;
+    height: 420px;
+  }
 
-    #sm {
-        padding: 5px 21px;
-        font-size: 13px;
-    }
+  #sm {
+    padding: 5px 21px;
+    font-size: 13px;
+  }
 }
 
-@media(max-width: 480px) {
-    .Image {
-        width: 100%;
-        height: 400px;
-    }
+@media (max-width: 480px) {
+  .Image {
+    width: 100%;
+    height: 400px;
+  }
 }
 
-@media(max-width: 480px) {
-    .Image {
-        width: 100%;
-        height: 400px;
-    }
+@media (max-width: 480px) {
+  .Image {
+    width: 100%;
+    height: 400px;
+  }
 }
 
-@media(max-width: 450px) {
-    .Image {
-        width: 100%;
-        height: 370px;
-    }
+@media (max-width: 450px) {
+  .Image {
+    width: 100%;
+    height: 370px;
+  }
 }
 
-@media(max-width: 420px) {
-    .Image {
-        width: 100%;
-        height: 350px;
-    }
+@media (max-width: 420px) {
+  .Image {
+    width: 100%;
+    height: 350px;
+  }
 }
 
-@media(max-width: 400px) {
-    .Image {
-        width: 100%;
-        height: 330px;
-    }
+@media (max-width: 400px) {
+  .Image {
+    width: 100%;
+    height: 330px;
+  }
 
-    #sm {
-        padding: 5px 18px;
-        font-size: 11px;
-    }
+  #sm {
+    padding: 5px 18px;
+    font-size: 11px;
+  }
 
-    .remember p {
-        text-align: center;
-        font-size: 13px;
-    }
+  .remember p {
+    text-align: center;
+    font-size: 13px;
+  }
 }
 
+@media (max-width: 370px) {
+  .Image {
+    width: 100%;
+    height: 300px;
+  }
 
-@media(max-width: 370px) {
-    .Image {
-        width: 100%;
-        height: 300px;
-    }
+  .option {
+    flex-direction: column-reverse;
+  }
 
-    .option {
-        flex-direction: column-reverse;
-    }
-
-    #sm {
-        padding: 7px 20px;
-        font-size: 14px;
-    }
+  #sm {
+    padding: 7px 20px;
+    font-size: 14px;
+  }
 }
 
-@media(max-width: 340px) {
-    .Image {
-        width: 100%;
-        height: 280px;
-    }
+@media (max-width: 340px) {
+  .Image {
+    width: 100%;
+    height: 280px;
+  }
 }
 
-@media(max-width: 280px) {
-    .Image {
-        width: 100%;
-        height: 230px;
-    }
+@media (max-width: 280px) {
+  .Image {
+    width: 100%;
+    height: 230px;
+  }
 
-    .flex-only {
-        margin-top: 12px;
-    }
+  .flex-only {
+    margin-top: 12px;
+  }
 
-    .remember p {
-        text-align: center;
-        font-size: 13px;
-        padding-top: 15px;
-    }
+  .remember p {
+    text-align: center;
+    font-size: 13px;
+    padding-top: 15px;
+  }
 }

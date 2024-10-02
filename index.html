@@ -7,11 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tailwin Life.com</title>
   <link rel="stylesheet" href="home.css" />
-  <link rel="stylesheet" href="media.css" />
+  <!-- <link rel="stylesheet" href="style.css" /> -->
 </head>
 
-<body>
-  <header>
+<body class="mainContainer">
+
+  <header class="flex-center">
     <div class="navbar">
       <div class="nav-left">
         <div class="logo">
@@ -54,7 +55,7 @@
   <main>
     <div class="main-container">
       <div class="container">
-        <div class="sub-container">
+        <div class="sub-container ">
           <div class="content-part">
             <h2>GROW YOUR INCOME IN A RAPID WAY</h2>
             <h1>WELCOME TO TALLWIN LIFE</h1>
@@ -71,7 +72,7 @@
         </div>
       </div>
     </div>
-    <section class="sub-container" id="about">
+    <section class="sub-container wrap" id="about">
       <div class="img-part">
         <img src="images/01.png" alt="This is a pic." />
       </div>
@@ -107,7 +108,7 @@
           <p>Problem in Global Market and Our Solutions</p>
         </div>
       </div>
-      <div class="chooseus-container">
+      <div class="chooseus-container flex-col">
         <div class="flex-box">
           <div class="box">
             <h1>Safe & Secure</h1>
@@ -152,7 +153,7 @@
         </div>
       </div>
     </section>
-    <section class="sub-container" id="invest">
+    <section class="sub-container wrap-reverse" id="invest">
       <div class="content-part2">
         <h4>
           <div class="dash2"></div>
@@ -376,7 +377,9 @@
       <div class="form">
         <div class="form-details">
           <form action="thank.html" method="post" target="_blank">
-            <h1>Get In Touch</h1>
+            <div class="contact-heading">
+              <h1>Get In Touch</h1>
+            </div>
             <div class="name-email">
               <input type="text" placeholder="Your Name" name="username" required />
               <input type="text" placeholder="Your Email" name="useremail" id="email" required />
@@ -385,7 +388,9 @@
               <input type="text" name="yoursubject" id="" placeholder="Your Subject" />
             </div>
             <textarea name="" id="" cols="10" rows="5" placeholder="Write Your Message"></textarea>
-            <button class="sm">SEND MESSAGE</button>
+            <div class="buttonBox">
+              <button class="sm">SEND MESSAGE</button>
+            </div>
           </form>
         </div>
         <div class="email">
