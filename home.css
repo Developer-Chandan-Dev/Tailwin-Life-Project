@@ -692,7 +692,9 @@ form h1 {
   background: linear-gradient(45deg, #003333, transparent 100px);
   color: white;
 }
-
+.name-email input::placeholder {
+  color: white;
+}
 #email {
   margin-left: 2%;
 }
@@ -711,6 +713,9 @@ form h1 {
   border-radius: 5px;
   margin-top: 15px;
 }
+.your-subject input::placeholder {
+  color: white;
+}
 textarea {
   width: 85%;
   padding: 15px 20px;
@@ -722,6 +727,10 @@ textarea {
   border-radius: 5px;
   resize: none;
   margin-top: 15px;
+  font-family: Poppins;
+}
+textarea::placeholder {
+  color: white;
 }
 
 .sm {
@@ -1235,7 +1244,7 @@ textarea {
     margin: auto;
     text-align: center;
   }
-  .footer-parts .footer-part{
+  .footer-parts .footer-part {
     width: 90%;
   }
 }
@@ -1265,7 +1274,7 @@ textarea {
     padding: 15px 16.5px;
   }
   form .buttonBox {
-    width:195px;
+    width: 195px;
   }
   .email {
     width: 200px;
